@@ -1,4 +1,4 @@
-# Python Crashkurs (ohne vorkenntnisse)
+# Python Crashkurs (ohne Vorkenntnisse)
 
 ## Getting started
 
