@@ -18,4 +18,13 @@ from show_images import *
 
 ## Hier euer code, der add_frame(<gif-sequenznummer>) aufruft
 
-start(repeat=True)
+start(repeat=False) # repeat=True spielt eure hinzugefügten Frames in einer Endlosschleife ab
+
+# Geschafft? Super!
+# Weiterführend könnt ihr nun:
+# - Die Katze rückwärts springen lassen
+# - Die Animation schneller spielen (doppelte Geschwindingkeit, also jedes zweite Frame überspringen)
+# - Die Katze abwechselnd raus und wieder zurück springen lassen
+# - ...
+# Hinweis: Wenn ihr möchtet könnt ihr eure eigene .gif herunterladen,
+# in den ordner images packen und als mygif.gif umbenennen / die vorherige gif löschen ;)

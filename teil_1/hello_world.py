@@ -15,7 +15,7 @@ print("Moin world")
 # Sie gibt das Funktionsargument auf der Konsole ("Shell" in Thonny) aus.
 
 # "Moin world" ist mit Gänsefüßchen abgetrennt.
-# Das bedeutet, dass "Moin world" Daten in form einer Zeichenkette sind.
+# Das bedeutet, dass "Moin world" Daten in Form einer Zeichenkette sind.
 # Daten können als Literale (wie in diesem Fall) vorliegen
 # Oder sie können aus Funktionsaufrufen erhalten werden (dazu später mehr)
 # Es gibt auch Daten in Form von Zahlen, die Literale dazu sehen dann so aus
@@ -23,4 +23,4 @@ print("Moin world")
 print(1)   # Das ist eine Ganzzahl, ein sog. Integer
 print(1.2) # Das ist eine Kommazahl, ein sog. Float
 
-# Komplexere Datentypen lernen wir Später kennen
+# Komplexere Datentypen lernen wir später kennen

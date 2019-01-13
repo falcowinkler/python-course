@@ -18,10 +18,10 @@ gruß = "Hallo" # Wert des Platzhalters wird hier verändert
 print(gruß) # Jetzt wird 'Hallo' ausgegeben
 print(name)
 
-# Variablen kann man genau so gut mit numerischen literalen belegen
+# Variablen kann man genau so gut mit numerischen Literalen belegen
 zahl = 42.0
 print(zahl)
-# Zahlen können auch von zeichenketten überschrieben werden
+# Zahlen können auch von Zeichenketten überschrieben werden
 zahl = "Dies ist eine Zeichenkette"
 print(zahl)
 # Pro-Tipp: Zeichenketten können auch mit dem einfachen Apostroph abgegrenzt werden.

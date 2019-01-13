@@ -27,7 +27,7 @@ if temperatur > 0 and temperatur < 20:
     
 if temperatur >= 20:
     print("Sonne")
-    
+
 # Es gibt noch weitere Operatoren zum Vergleichen von Zahlen: <, <=, >, >=, != und ==.
 # Kleiner, kleiner gleich, größer, größer gleich und gleich.
 # (Doppelt-gleich weil das einfache = für Variablenzuweisung belegt ist).
