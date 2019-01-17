@@ -1,5 +1,5 @@
 # Alles hinter einem '#' wird von python ignoriert, so können wir Kommentare schreiben
-#
+# 
 # Beim Lernen von Programmiersprachen ist es eine weit verbreitete Tradition, 
 # als Erstes ein Programm zu schreiben, welches einfach nur `hello world` ausgibt. 
 # Diese Tradition wollen wir natürlich nicht brechen, außer dass wir es auf die Hamburger art machen.
