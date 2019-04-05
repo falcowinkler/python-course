@@ -8,7 +8,7 @@ euren Code möglichst wenig wiederholen._
 
 Versucht zunächst das folgende Muster wie in dem Bild dargestellt mit den `block(x, y, "Wasser")` Befehl zu erstellen.
 
-![alt text](labyrinth/muster_schräg.png)
+![alt text](muster_schräg.png)
 
 ### 1.2
 
@@ -32,4 +32,4 @@ while block_typ(x, y) != "Ziel":
 
 Wenn ihr noch mehr üben wollt, dann versucht mal dieses etwas schwierigere Muster zu erstellen und zu lösen.
 
-![alt text](labyrinth/muster_zacken.png)
+![alt text](muster_zacken.png)
