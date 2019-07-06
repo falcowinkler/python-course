@@ -13,7 +13,7 @@ should_run = True
 def add_frame(i):
     if len(frames) > 1000:
         raise(Exception("Please don't add more than 1000 images to your animation :)"))
-    frames.append(PhotoImage(file='images/mygif.gif',format = 'gif -index %i' % (i % 13)))
+    frames.append(PhotoImage(file='images/mygif.gif',format = 'gif -index %i' % (i)))
 
 def update(repeat, ind):
     global should_run

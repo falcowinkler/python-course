@@ -4,8 +4,9 @@
 
 i = 1
 while i <= 10: # während i kleiner ist als 10
-    i += 1 # erhöht i um 1. Kurzschreibweise für i = i + 1
-    print(i)
+      print(i)
+      i = i + 1 # erhöht i um 1. Kurzschreibweise für i = i + 1
+
 
 
 b = 1

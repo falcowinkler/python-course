@@ -43,6 +43,12 @@ print("moin " + name)
 # Probiert das mal aus:
 
 zahl = 42
-zeichenkette = "72"
+zeichenkette="72"
+
+print(zahl + int(zeichenkette))
+
+print(zahl + int(zeichenkette))
+
+print(str(zahl) + " " + zeichenkette)
 
 # Was könnten gründe für das Ergebnis sein?

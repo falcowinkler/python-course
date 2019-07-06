@@ -8,17 +8,26 @@
 # wenn dieser Wert True ist. In einer else - Anweisung kann der
 #Codeblock angegeben werden, der alternativ ausgeführt werden soll.
 
-es_ist_heiss = True
+es_ist_heiss = False
 
-if es_ist_heiss: 
+if es_ist_heiss:
     print("Sonne")
+else:
+    print("Schnee")
 
 # Wahrheitswerte lassen sich auch aus Vorbedingungen berechnen.
 # Zum Beispiel durch einen Zahlenvergleich.
 # Angenommen, ihr möchtet in einem Programm eine Sonne anzeigen,
 # wenn die Temperatur über 20 Grad ist. Ganz einfach:
     
-temperatur = 40
+temperatur = 30
+
+if temperatur == 20:
+    print("Ist gleich 20")
+    
+if temperatur != 20:
+    print("Ist ungleich 20")    
+
 if temperatur <= 0:
     print ("Schnee")
 
@@ -43,3 +52,28 @@ elif temperatur < 20:
     print("Temperatur ist kleiner als 20")
 else:
     print("Temperatur ist größer oder gleich 20")
+    
+    
+eingabe = 2
+
+if eingabe == 2:
+    print("Riegel")
+elif eingabe < 2:
+    print("zu wenig")
+else:
+    print("zu viel")
+
+
+
+    
+eingabe = 1
+
+if eingabe == 2:
+    print("Schokoriegel")
+elif eingabe < 2:
+    print("zu wenig")
+else:
+    print("zu viel")
+
+
+

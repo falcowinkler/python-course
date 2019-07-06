@@ -24,6 +24,9 @@ print(zahl)
 
 # Zahlen können auch von Zeichenketten überschrieben werden
 zahl = "Dies ist eine Zeichenkette"
+
+print(0.1 + 0.2)
 print(zahl)
 # Pro-Tipp: Zeichenketten können auch mit dem einfachen Apostroph abgegrenzt werden.
 print('Wieder was gelernt')
+print('Er sagte "hallo" ')

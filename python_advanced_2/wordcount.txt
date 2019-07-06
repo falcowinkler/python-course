@@ -1,0 +1,7 @@
+Schnabeltier Scnabeltier
+Herr Meier, 42, Angestellt
+Herr Müller, 32, Selbstständig
+Herr Meier, 42, Angestellt 45 5 6 231 12345  # * 
+Herr Meier, 42, Angestellt
+Herr Müller, 32, Selbstständig
+Herr Meier, 42, Angestellt

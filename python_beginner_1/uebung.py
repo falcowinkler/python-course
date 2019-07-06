@@ -16,10 +16,18 @@
 
 from show_images import *
 
+i = 0
+while i < 100:
+    add_frame(i % 13)
+    add_frame(-i % 13)
+    i += 1
+    
 ## Hier euer code, der add_frame(<gif-sequenznummer>) aufruft
 
-start(repeat=False) # repeat=True spielt eure hinzugefügten Frames in einer Endlosschleife ab
+start()
 
+# start(repeat=True) spielt eure hinzugefügten Frames in einer Endlosschleife ab
+# Das ziel ist es aber, diese Schleife selber zu Programmieren.
 # Geschafft? Super!
 # Weiterführend könnt ihr nun:
 # - Die Katze rückwärts springen lassen
