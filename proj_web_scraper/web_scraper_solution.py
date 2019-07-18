@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import urllib.request as request
-import sqlite3
 
 
 def get_html_source(url):
@@ -49,8 +48,8 @@ def extract_month_from_index_entry(entry):
     return date
 
 
-def month_to_url_format(month):
-    month, year = month.split("/")
+def month_to_url_format(year_and_month):
+    month, year = year_and_month.split("/")
     return year + month
 
 
@@ -61,28 +60,3 @@ def get_recorded_months(content):
     for entry in all_entries:
         result.append(month_to_url_format(extract_month_from_index_entry(entry)))
     return result
-
-
-def save_to_database(conn, record):
-    conn.cursor().execute("INSERT INTO ufo_sights (time, summary, shape, location) VALUES (?, ?, ?, ?)", record)
-    con.commit()
-
-
-create_table_statement = """
-CREATE TABLE IF NOT EXISTS ufo_sights (
-    time string,
-    summary string,
-    shape string,
-    location string
-);"""
-
-if __name__ == '__main__':
-    con = sqlite3.connect("ufo-db.sqlite")
-    cur = con.cursor()
-    cur.execute(create_table_statement)
-    index = get_index_page_contents()
-    months_to_download = get_recorded_months(index)
-    for month in months_to_download[:1]:
-        for sighting in get_list_of_all_sightings_in_month(month):
-            save_to_database(con, sighting)
-    con.close()
